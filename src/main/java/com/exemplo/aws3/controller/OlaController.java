@@ -8,7 +8,7 @@ public class OlaController {
 	
 	@GetMapping("/health")
 	public String dizerOla() {
-		return "UP!";
+		return "Fernando vai na humildade";
 	}
 
 }
