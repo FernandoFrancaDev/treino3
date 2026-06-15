@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OlaController {
 	
-	@GetMapping("/health")
+	@GetMapping("/teste")
 	public String dizerOla() {
-		return "Fernando vai na humildade";
+		return "Aula5 - Docker";
 	}
 
 }

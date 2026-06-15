@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  api:
+    image: aula5:latest
+    build: .
+    ports:
+      - "8081:8081"
